@@ -1,0 +1,48 @@
+table, tr, td{
+    border-collapse: collapse;
+}
+#tablesize{
+    width:50%;
+}
+
+table{
+    line-height: 1.8;
+}
+
+td{
+    padding: 15px;
+    padding-left:30px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    width:20%;
+}
+
+
+tr{
+    height:50px;  
+    text-align: center;
+}
+
+/* hoverable colour change on row code fix from https://stackoverflow.com/questions/61647186/css-hover-not-works-on-a-table-cell-if-it-has-a-specific-background-color */
+tr:hover td {
+    background-color:#CEC3B2!important;
+    transition: transform .1s ease;
+    transform: scale(1.1);
+    cursor: default;
+}
+
+.redirect:hover{
+    background-color: #f5f4ef;
+}
+
+.redirect{
+    border-radius: 3px;
+    padding:3px;
+    background-color: #CEC3B2;
+    text-decoration: none;
+}
+
+footer{
+    margin-top:300px;
+    height:auto;
+}

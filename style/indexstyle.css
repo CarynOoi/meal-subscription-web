@@ -1,0 +1,16 @@
+#boxes{
+    margin-top: 190px;
+    height: 400px;
+}
+
+#wording{
+	margin-top: 20px;
+    width:900px;
+    text-align:left;
+}
+
+#cookgif{
+	float: right;
+    width: 500px;
+}
+
